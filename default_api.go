@@ -58,7 +58,7 @@ func (a DefaultApi) CreateDashboard() (*Dashboards, *APIResponse, error) {
 
 	var localVarHttpMethod = strings.ToUpper("Post")
 	// create path and map variables
-	localVarPath := a.Configuration.BasePath + "/ui/dashboards"
+	localVarPath := a.Configuration.BasePath + "/dashboards"
 
 	localVarHeaderParams := make(map[string]string)
 	localVarQueryParams := url.Values{}
@@ -120,7 +120,7 @@ func (a DefaultApi) GetDashboards() (*Dashboards, *APIResponse, error) {
 
 	var localVarHttpMethod = strings.ToUpper("Get")
 	// create path and map variables
-	localVarPath := a.Configuration.BasePath + "/ui/dashboards"
+	localVarPath := a.Configuration.BasePath + "/dashboards"
 
 	localVarHeaderParams := make(map[string]string)
 	localVarQueryParams := url.Values{}

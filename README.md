@@ -17,12 +17,12 @@ Put the package under your project folder and add the following in import:
 
 ## Documentation for API Endpoints
 
-All URIs are relative to *https://app.sysdigcloud.com/api*
+All URIs are relative to *https://app.sysdigcloud.com/ui*
 
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------
-*DefaultApi* | [**CreateDashboard**](docs/DefaultApi.md#createdashboard) | **Post** /ui/dashboards | 
-*DefaultApi* | [**GetDashboards**](docs/DefaultApi.md#getdashboards) | **Get** /ui/dashboards | 
+*DefaultApi* | [**CreateDashboard**](docs/DefaultApi.md#createdashboard) | **Post** /dashboards | 
+*DefaultApi* | [**GetDashboards**](docs/DefaultApi.md#getdashboards) | **Get** /dashboards | 
 
 
 ## Documentation For Models

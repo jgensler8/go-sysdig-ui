@@ -50,7 +50,7 @@ type Configuration struct {
 
 func NewConfiguration() *Configuration {
 	cfg := &Configuration{
-		BasePath:      "https://app.sysdigcloud.com/api",
+		BasePath:      "https://app.sysdigcloud.com/ui",
 		DefaultHeader: make(map[string]string),
 		APIKey:        make(map[string]string),
 		APIKeyPrefix:  make(map[string]string),

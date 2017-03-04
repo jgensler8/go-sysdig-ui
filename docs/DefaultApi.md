@@ -1,11 +1,11 @@
 # \DefaultApi
 
-All URIs are relative to *https://app.sysdigcloud.com/api*
+All URIs are relative to *https://app.sysdigcloud.com/ui*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
-[**CreateDashboard**](DefaultApi.md#CreateDashboard) | **Post** /ui/dashboards | 
-[**GetDashboards**](DefaultApi.md#GetDashboards) | **Get** /ui/dashboards | 
+[**CreateDashboard**](DefaultApi.md#CreateDashboard) | **Post** /dashboards | 
+[**GetDashboards**](DefaultApi.md#GetDashboards) | **Get** /dashboards | 
 
 
 # **CreateDashboard**
