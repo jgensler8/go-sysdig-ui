@@ -22,6 +22,7 @@ All URIs are relative to *https://app.sysdigcloud.com/api*
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------
 *DefaultApi* | [**CreateDashboard**](docs/DefaultApi.md#createdashboard) | **Post** /ui/dashboards | 
+*DefaultApi* | [**GetDashboard**](docs/DefaultApi.md#getdashboard) | **Get** /ui/dashboards | 
 
 
 ## Documentation For Models
