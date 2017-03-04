@@ -58,7 +58,7 @@ type Panel struct {
 
 	Format Format `json:"format,omitempty"`
 
-	Sorting []interface{} `json:"sorting,omitempty"`
+	Sorting []SortingPagingRef_ `json:"sorting,omitempty"`
 
 	FilterProcess bool `json:"filterProcess,omitempty"`
 

@@ -34,7 +34,9 @@ Class | Method | HTTP request | Description
  - [GridConfiguration](docs/GridConfiguration.md)
  - [Metric](docs/Metric.md)
  - [ModelError](docs/ModelError.md)
+ - [Paging](docs/Paging.md)
  - [Panel](docs/Panel.md)
+ - [Sorting](docs/Sorting.md)
  - [Time](docs/Time.md)
  - [TimeMode](docs/TimeMode.md)
 

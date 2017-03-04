@@ -20,7 +20,7 @@ Name | Type | Description | Notes
 **LinkMetrics** | [**[]interface{}**](interface{}.md) |  | [optional] [default to null]
 **CompareWith** | [**interface{}**](interface{}.md) |  | [optional] [default to null]
 **Format** | [**Format**](Format.md) |  | [optional] [default to null]
-**Sorting** | [**[]interface{}**](interface{}.md) |  | [optional] [default to null]
+**Sorting** | [**[]SortingPagingRef_**](Sorting paging: $ref: .md) |  | [optional] [default to null]
 **FilterProcess** | **bool** |  | [optional] [default to null]
 **FilterRoot** | **bool** |  | [optional] [default to null]
 **Items** | [**[]interface{}**](interface{}.md) |  | [optional] [default to null]
