@@ -116,7 +116,7 @@ func (a DefaultApi) CreateDashboard() (*Dashboards, *APIResponse, error) {
  *
  * @return *Dashboards
  */
-func (a DefaultApi) GetDashboard() (*Dashboards, *APIResponse, error) {
+func (a DefaultApi) GetDashboards() (*Dashboards, *APIResponse, error) {
 
 	var localVarHttpMethod = strings.ToUpper("Get")
 	// create path and map variables
@@ -159,7 +159,7 @@ func (a DefaultApi) GetDashboard() (*Dashboards, *APIResponse, error) {
 
 	var localVarURL, _ = url.Parse(localVarPath)
 	localVarURL.RawQuery = localVarQueryParams.Encode()
-	var localVarAPIResponse = &APIResponse{Operation: "GetDashboard", Method: localVarHttpMethod, RequestURL: localVarURL.String()}
+	var localVarAPIResponse = &APIResponse{Operation: "GetDashboards", Method: localVarHttpMethod, RequestURL: localVarURL.String()}
 	if localVarHttpResponse != nil {
 		localVarAPIResponse.Response = localVarHttpResponse.RawResponse
 		localVarAPIResponse.Payload = localVarHttpResponse.Body()
