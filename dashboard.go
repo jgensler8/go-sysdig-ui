@@ -80,7 +80,7 @@ type Dashboard struct {
 
 	Metrics []interface{} `json:"metrics,omitempty"`
 
-	Items Panel `json:"items,omitempty"`
+	Items []Panel `json:"items,omitempty"`
 
 	Username string `json:"username,omitempty"`
 }

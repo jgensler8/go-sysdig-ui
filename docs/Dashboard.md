@@ -31,7 +31,7 @@ Name | Type | Description | Notes
 **TimeMode** | [**TimeMode**](TimeMode.md) |  | [optional] [default to null]
 **Time** | [**Time**](Time.md) |  | [optional] [default to null]
 **Metrics** | [**[]interface{}**](interface{}.md) |  | [optional] [default to null]
-**Items** | [**Panel**](Panel.md) |  | [optional] [default to null]
+**Items** | [**[]Panel**](Panel.md) |  | [optional] [default to null]
 **Username** | **string** |  | [optional] [default to null]
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
