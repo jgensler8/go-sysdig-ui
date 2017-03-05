@@ -12,7 +12,7 @@ Method | HTTP request | Description
 
 
 # **CreateDashboard**
-> Dashboards CreateDashboard($dashboardInput)
+> DashboardInput CreateDashboard($dashboardInput)
 
 
 
@@ -27,7 +27,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**Dashboards**](Dashboards.md)
+[**DashboardInput**](DashboardInput.md)
 
 ### Authorization
 

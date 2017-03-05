@@ -54,9 +54,9 @@ func NewDefaultApiWithBasePath(basePath string) *DefaultApi {
  * Creates a new Dashboard
  *
  * @param dashboardInput DashboardInput
- * @return *Dashboards
+ * @return *DashboardInput
  */
-func (a DefaultApi) CreateDashboard(dashboardInput DashboardInput) (*Dashboards, *APIResponse, error) {
+func (a DefaultApi) CreateDashboard(dashboardInput DashboardInput) (*DashboardInput, *APIResponse, error) {
 
 	var localVarHttpMethod = strings.ToUpper("Post")
 	// create path and map variables
@@ -96,7 +96,7 @@ func (a DefaultApi) CreateDashboard(dashboardInput DashboardInput) (*Dashboards,
 	}
 	// body params
 	localVarPostBody = &dashboardInput
-	var successPayload = new(Dashboards)
+	var successPayload = new(DashboardInput)
 	localVarHttpResponse, err := a.Configuration.APIClient.CallAPI(localVarPath, localVarHttpMethod, localVarPostBody, localVarHeaderParams, localVarQueryParams, localVarFormParams, localVarFileName, localVarFileBytes)
 
 	var localVarURL, _ = url.Parse(localVarPath)
