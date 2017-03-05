@@ -28,6 +28,7 @@ Class | Method | HTTP request | Description
 ## Documentation For Models
 
  - [Dashboard](docs/Dashboard.md)
+ - [DashboardInput](docs/DashboardInput.md)
  - [Dashboards](docs/Dashboards.md)
  - [Errors](docs/Errors.md)
  - [Format](docs/Format.md)

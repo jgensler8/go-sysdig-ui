@@ -9,7 +9,7 @@ Method | HTTP request | Description
 
 
 # **CreateDashboard**
-> Dashboards CreateDashboard($body)
+> Dashboards CreateDashboard($dashboardInput)
 
 
 
@@ -20,7 +20,7 @@ Creates a new Dashboard
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**Dashboard**](Dashboard.md)| Dashboard | 
+ **dashboardInput** | [**DashboardInput**](DashboardInput.md)| DashboardInput | 
 
 ### Return type
 
