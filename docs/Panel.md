@@ -5,6 +5,7 @@ Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **Name** | **string** |  | [default to null]
 **ShowAs** | **string** |  | [default to null]
+**ShowAsType** | **string** |  | [default to null]
 **SortAscending** | **bool** |  | [optional] [default to null]
 **SingleTimeNavigation** | **bool** |  | [optional] [default to null]
 **InheritTimeNavigation** | **bool** |  | [optional] [default to null]

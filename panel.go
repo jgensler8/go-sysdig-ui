@@ -29,6 +29,8 @@ type Panel struct {
 
 	ShowAs string `json:"showAs,omitempty"`
 
+	ShowAsType string `json:"showAsType,omitempty"`
+
 	SortAscending bool `json:"sortAscending,omitempty"`
 
 	SingleTimeNavigation bool `json:"singleTimeNavigation,omitempty"`
