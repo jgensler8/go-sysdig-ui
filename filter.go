@@ -29,4 +29,6 @@ type Filter struct {
 	Op string `json:"op,omitempty"`
 
 	Value string `json:"value,omitempty"`
+
+	Filters interface{} `json:"filters,omitempty"`
 }

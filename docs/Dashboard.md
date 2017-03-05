@@ -18,6 +18,7 @@ Name | Type | Description | Notes
 **FilterRoot** | **bool** |  | [optional] [default to null]
 **SingleTimeNavigation** | **bool** |  | [optional] [default to null]
 **ShowAs** | [**interface{}**](interface{}.md) |  | [optional] [default to null]
+**EventsFilter** | [**EventsFilter**](EventsFilter.md) |  | [optional] [default to null]
 **CompareWith** | [**interface{}**](interface{}.md) |  | [optional] [default to null]
 **Format** | [**Format**](Format.md) |  | [optional] [default to null]
 **SortAscending** | **bool** |  | [optional] [default to null]

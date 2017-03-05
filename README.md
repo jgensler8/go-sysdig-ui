@@ -31,6 +31,7 @@ Class | Method | HTTP request | Description
  - [DashboardInput](docs/DashboardInput.md)
  - [Dashboards](docs/Dashboards.md)
  - [Errors](docs/Errors.md)
+ - [EventsFilter](docs/EventsFilter.md)
  - [Filter](docs/Filter.md)
  - [Format](docs/Format.md)
  - [GridConfiguration](docs/GridConfiguration.md)

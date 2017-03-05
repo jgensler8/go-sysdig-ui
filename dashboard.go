@@ -54,6 +54,8 @@ type Dashboard struct {
 
 	ShowAs interface{} `json:"showAs,omitempty"`
 
+	EventsFilter EventsFilter `json:"eventsFilter,omitempty"`
+
 	CompareWith interface{} `json:"compareWith,omitempty"`
 
 	Format Format `json:"format,omitempty"`
