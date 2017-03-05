@@ -4,7 +4,7 @@
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **MetricId** | **string** |  | [default to null]
-**PropertyName** | **string** |  | [default to null]
+**PropertyName** | **string** |  | [optional] [default to null]
 **Aggregation** | **string** |  | [optional] [default to null]
 **GroupAggregation** | **string** |  | [optional] [default to null]
 

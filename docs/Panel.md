@@ -4,7 +4,7 @@
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **Name** | **string** |  | [default to null]
-**ShowAs** | **string** |  | [optional] [default to null]
+**ShowAs** | **string** |  | [default to null]
 **SortAscending** | **bool** |  | [optional] [default to null]
 **SingleTimeNavigation** | **bool** |  | [optional] [default to null]
 **InheritTimeNavigation** | **bool** |  | [optional] [default to null]
@@ -16,7 +16,7 @@ Name | Type | Description | Notes
 **NodesNoiseFilter** | [**interface{}**](interface{}.md) |  | [optional] [default to null]
 **LinksNoiseFilter** | [**interface{}**](interface{}.md) |  | [optional] [default to null]
 **MapDataLimit** | [**interface{}**](interface{}.md) |  | [optional] [default to null]
-**Metrics** | [**[]Metric**](Metric.md) |  | [optional] [default to null]
+**Metrics** | [**[]Metric**](Metric.md) |  | [default to null]
 **LinkMetrics** | [**[]interface{}**](interface{}.md) |  | [optional] [default to null]
 **CompareWith** | [**interface{}**](interface{}.md) |  | [optional] [default to null]
 **Format** | [**Format**](Format.md) |  | [optional] [default to null]

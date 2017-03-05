@@ -60,7 +60,7 @@ type Dashboard struct {
 
 	SortAscending bool `json:"sortAscending,omitempty"`
 
-	ShowAsType interface{} `json:"showAsType,omitempty"`
+	ShowAsType string `json:"showAsType,omitempty"`
 
 	NodesNoiseFilter interface{} `json:"nodesNoiseFilter,omitempty"`
 

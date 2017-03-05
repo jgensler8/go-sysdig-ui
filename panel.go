@@ -22,6 +22,7 @@
 
 package swagger
 
+// valid showAs values w/ showAsType   timeSeries{ showAsType: line }   summary{ showAsType: summary}   top{ showAsType: bars }      timeSeries and top will need paging set   top will need sorting set
 type Panel struct {
 
 	Name string `json:"name,omitempty"`

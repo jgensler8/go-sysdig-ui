@@ -21,7 +21,7 @@ Name | Type | Description | Notes
 **CompareWith** | [**interface{}**](interface{}.md) |  | [optional] [default to null]
 **Format** | [**Format**](Format.md) |  | [optional] [default to null]
 **SortAscending** | **bool** |  | [optional] [default to null]
-**ShowAsType** | [**interface{}**](interface{}.md) |  | [optional] [default to null]
+**ShowAsType** | **string** |  | [optional] [default to null]
 **NodesNoiseFilter** | [**interface{}**](interface{}.md) |  | [optional] [default to null]
 **InheritTimeNavigation** | **bool** |  | [optional] [default to null]
 **Responsive** | **string** |  | [optional] [default to null]

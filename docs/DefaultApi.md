@@ -9,7 +9,7 @@ Method | HTTP request | Description
 
 
 # **CreateDashboard**
-> Dashboards CreateDashboard()
+> Dashboards CreateDashboard($body)
 
 
 
@@ -17,7 +17,10 @@ Creates a new Dashboard
 
 
 ### Parameters
-This endpoint does not need any parameter.
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **body** | [**Dashboard**](Dashboard.md)| Dashboard | 
 
 ### Return type
 
