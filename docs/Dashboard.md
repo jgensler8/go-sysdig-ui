@@ -3,6 +3,7 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
+**Name** | **string** |  | [default to null]
 **Id** | **int64** |  | [optional] [default to null]
 **Version** | **int32** |  | [optional] [default to null]
 **CreatedOn** | **int64** |  | [optional] [default to null]
@@ -22,11 +23,10 @@ Name | Type | Description | Notes
 **CompareWith** | [**interface{}**](interface{}.md) |  | [optional] [default to null]
 **Format** | [**Format**](Format.md) |  | [optional] [default to null]
 **SortAscending** | **bool** |  | [optional] [default to null]
-**ShowAsType** | **string** |  | [optional] [default to null]
+**ShowAsType** | [**interface{}**](interface{}.md) |  | [optional] [default to null]
 **NodesNoiseFilter** | [**interface{}**](interface{}.md) |  | [optional] [default to null]
 **InheritTimeNavigation** | **bool** |  | [optional] [default to null]
 **Responsive** | **string** |  | [optional] [default to null]
-**Name** | **string** |  | [default to null]
 **LinkMetrics** | [**[]interface{}**](interface{}.md) |  | [optional] [default to null]
 **IsNewPanel** | **bool** |  | [optional] [default to null]
 **TimeMode** | [**TimeMode**](TimeMode.md) |  | [optional] [default to null]

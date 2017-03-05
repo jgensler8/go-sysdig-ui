@@ -24,6 +24,8 @@ package swagger
 
 type Dashboard struct {
 
+	Name string `json:"name,omitempty"`
+
 	Id int64 `json:"id,omitempty"`
 
 	Version int32 `json:"version,omitempty"`
@@ -62,15 +64,13 @@ type Dashboard struct {
 
 	SortAscending bool `json:"sortAscending,omitempty"`
 
-	ShowAsType string `json:"showAsType,omitempty"`
+	ShowAsType interface{} `json:"showAsType,omitempty"`
 
 	NodesNoiseFilter interface{} `json:"nodesNoiseFilter,omitempty"`
 
 	InheritTimeNavigation bool `json:"inheritTimeNavigation,omitempty"`
 
 	Responsive string `json:"responsive,omitempty"`
-
-	Name string `json:"name,omitempty"`
 
 	LinkMetrics []interface{} `json:"linkMetrics,omitempty"`
 
