@@ -121,7 +121,7 @@ func (a DefaultApi) CreateDashboard(dashboardInput DashboardInput) (*DashboardIn
  * @param id DashboardID
  * @return *Dashboards
  */
-func (a DefaultApi) DeleteDashboard(id string) (*Dashboards, *APIResponse, error) {
+func (a DefaultApi) DeleteDashboard(id int64) (*Dashboards, *APIResponse, error) {
 
 	var localVarHttpMethod = strings.ToUpper("Delete")
 	// create path and map variables
@@ -185,7 +185,7 @@ func (a DefaultApi) DeleteDashboard(id string) (*Dashboards, *APIResponse, error
  * @param id DashboardID
  * @return *DashboardInput
  */
-func (a DefaultApi) GetDashboard(id string) (*DashboardInput, *APIResponse, error) {
+func (a DefaultApi) GetDashboard(id int64) (*DashboardInput, *APIResponse, error) {
 
 	var localVarHttpMethod = strings.ToUpper("Get")
 	// create path and map variables
@@ -312,7 +312,7 @@ func (a DefaultApi) GetDashboards() (*Dashboards, *APIResponse, error) {
  * @param id DashboardID
  * @return *DashboardInput
  */
-func (a DefaultApi) UpdateDashboard(dashboardInput DashboardInput, id string) (*DashboardInput, *APIResponse, error) {
+func (a DefaultApi) UpdateDashboard(dashboardInput DashboardInput, id int64) (*DashboardInput, *APIResponse, error) {
 
 	var localVarHttpMethod = strings.ToUpper("Put")
 	// create path and map variables

@@ -52,7 +52,7 @@ Deletes a new Dashboard
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **string**| DashboardID | 
+ **id** | **int64**| DashboardID | 
 
 ### Return type
 
@@ -81,7 +81,7 @@ Get Dashboard
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **string**| DashboardID | 
+ **id** | **int64**| DashboardID | 
 
 ### Return type
 
@@ -137,7 +137,7 @@ Updates a new Dashboard
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **dashboardInput** | [**DashboardInput**](DashboardInput.md)| DashboardInput | 
- **id** | **string**| DashboardID | 
+ **id** | **int64**| DashboardID | 
 
 ### Return type
 
