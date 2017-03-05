@@ -47,6 +47,10 @@ type Panel struct {
 
 	TimeMode interface{} `json:"timeMode,omitempty"`
 
+	Filter Filter `json:"filter,omitempty"`
+
+	GroupingFilter GroupingFilter `json:"groupingFilter,omitempty"`
+
 	NodesNoiseFilter interface{} `json:"nodesNoiseFilter,omitempty"`
 
 	LinksNoiseFilter interface{} `json:"linksNoiseFilter,omitempty"`

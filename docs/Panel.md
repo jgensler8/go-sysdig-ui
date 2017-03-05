@@ -14,6 +14,8 @@ Name | Type | Description | Notes
 **IsNewPanel** | **bool** |  | [optional] [default to null]
 **Time** | [**interface{}**](interface{}.md) |  | [optional] [default to null]
 **TimeMode** | [**interface{}**](interface{}.md) |  | [optional] [default to null]
+**Filter** | [**Filter**](Filter.md) |  | [optional] [default to null]
+**GroupingFilter** | [**GroupingFilter**](GroupingFilter.md) |  | [optional] [default to null]
 **NodesNoiseFilter** | [**interface{}**](interface{}.md) |  | [optional] [default to null]
 **LinksNoiseFilter** | [**interface{}**](interface{}.md) |  | [optional] [default to null]
 **MapDataLimit** | [**interface{}**](interface{}.md) |  | [optional] [default to null]
